@@ -31,6 +31,11 @@ public class QuizActivity extends Activity {
             new TrueFalse(R.string.question_americas, true),
             new TrueFalse(R.string.question_asia, true)
     };
+    
+    
+    
+    
+    
 
     int mCurrentIndex = 0;
 
