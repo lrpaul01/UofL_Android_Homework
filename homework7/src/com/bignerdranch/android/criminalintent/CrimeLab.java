@@ -1,6 +1,7 @@
 package com.bignerdranch.android.criminalintent;
 
 import java.util.ArrayList;
+import java.util.UUID;
 
 import android.content.Context;
 
@@ -31,5 +32,12 @@ public class CrimeLab {
     public ArrayList<Crime> getCrimes() {
         return mCrimes;
     }
+
+	public Crime getCrime(UUID crimeId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 }
 
