@@ -1,5 +1,9 @@
 package com.bignerdranch.android.geoquiz;
 
+<<<<<<< HEAD
+=======
+import android.app.ActionBar;
+>>>>>>> 3c62fb4f424b46d70cc675dbf974b9f3532d3b6a
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -67,6 +71,12 @@ public class QuizActivity extends Activity {
         super.onCreate(savedInstanceState);
         Log.d(TAG, "onCreate() called");
         setContentView(R.layout.activity_quiz);
+<<<<<<< HEAD
+=======
+        
+        ActionBar actionBar = getActionBar();
+        actionBar.setSubtitle("Bodies of Water");
+>>>>>>> 3c62fb4f424b46d70cc675dbf974b9f3532d3b6a
 
         mIsCheater = false;
 
